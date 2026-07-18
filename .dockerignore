@@ -1,0 +1,14 @@
+.git
+.history
+.idea
+.vscode
+.env
+.env.*
+node_modules
+vendor
+public/build
+public/hot
+storage/logs
+tmp
+tests
+README.md
