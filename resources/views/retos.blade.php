@@ -183,16 +183,16 @@
                     <button class="token" draggable="true" data-token="solido">Sólido</button>
                     <button class="token" draggable="true" data-token="liquido">Líquido</button>
                     <button class="token" draggable="true" data-token="gaseoso">Gaseoso</button>
-                    <button class="token" draggable="true" data-token="condensacion">Condensación</button>
-                    <button class="token" draggable="true" data-token="solidificacion">Solidificación</button>
-                    <button class="token" draggable="true" data-token="vaporizacion">Vaporización</button>
+                    <button class="token" draggable="true" data-token="condensacion" data-label="Condensación" data-fill-label="Un gas pasa a líquido al enfriarlo.">Un gas pasa a líquido al enfriarlo.</button>
+                    <button class="token" draggable="true" data-token="solidificacion" data-label="Solidificación" data-fill-label="Un líquido pasa a sólido al enfriarlo.">Un líquido pasa a sólido al enfriarlo.</button>
+                    <button class="token" draggable="true" data-token="vaporizacion" data-label="Vaporización" data-fill-label="Por un aumento de temperatura.">Por un aumento de temperatura.</button>
                 </div>
                 <div class="drop-grid">
-                    <div class="dropzone" data-dropzone="solidificacion"><span>Un líquido pasa a sólido al enfriarlo.</span><small>Arrastra aqui</small></div>
+                    <div class="dropzone" data-dropzone="solidificacion"><span>La solidificación se produce cuando:</span><small>Arrastra aqui</small></div>
                     <div class="dropzone" data-dropzone="liquido"><span>No tiene forma propia. Su volumen es fijo, pero se adapta al recipiente que lo contiene.</span><small>Arrastra aqui</small></div>
-                    <div class="dropzone" data-dropzone="vaporizacion"><span>Por un aumento de temperatura.</span><small>Arrastra aqui</small></div>
+                    <div class="dropzone" data-dropzone="vaporizacion"><span>La vaporización se produce cuando:</span><small>Arrastra aqui</small></div>
                     <div class="dropzone" data-dropzone="solido"><span>Tiene forma y volumen fijos.</span><small>Arrastra aqui</small></div>
-                    <div class="dropzone" data-dropzone="condensacion"><span>Un gas pasa a líquido al enfriarlo.</span><small>Arrastra aqui</small></div>
+                    <div class="dropzone" data-dropzone="condensacion"><span>La condensación se produce cuando:</span><small>Arrastra aqui</small></div>
                     <div class="dropzone" data-dropzone="gaseoso"><span>No tiene forma propia. No tiene volumen fijo.</span><small>Arrastra aqui</small></div>
                 </div>
             </div>

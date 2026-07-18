@@ -224,6 +224,7 @@ function bindDragAndDrop(state) {
             ? token.dataset.group === zone.dataset.dropGroup
             : token.dataset.token === zone.dataset.dropzone;
         const sourceLabel = token.dataset.label || token.textContent.trim();
+        const fillLabel = token.dataset.fillLabel || sourceLabel;
         const targetLabel = zone.querySelector('span')?.textContent.trim() || 'casilla';
         const targetGroup = groupName[zone.dataset.dropGroup] || targetLabel;
 
@@ -244,7 +245,7 @@ function bindDragAndDrop(state) {
         zone.classList.add('is-filled');
         const label = zone.querySelector('small');
         if (label) {
-            label.textContent = sourceLabel;
+            label.textContent = fillLabel;
         }
         token.remove();
         selectedToken = null;
