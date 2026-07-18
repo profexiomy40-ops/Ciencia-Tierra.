@@ -465,7 +465,7 @@
             <strong>Esquema listo</strong>
             <p>Las tarjetas se sueltan con arrastrar o con clic si prefieres usar el mouse.</p>
         </div>
-        <small>Proyecto local editable en Laravel.</small>
+        <small class="footer-credit"><span>Diseño</span><strong>CrisFaDev</strong></small>
     </footer>
 </body>
 </html>

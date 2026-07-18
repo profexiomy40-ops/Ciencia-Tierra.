@@ -1552,6 +1552,20 @@ p {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.guide-footer .footer-credit {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 0.82rem;
+    letter-spacing: 0;
+}
+
+.guide-footer .footer-credit strong {
+    color: #fff7c8;
+    font-size: 0.9rem;
+}
+
 @media (max-width: 1024px) {
     .hero-guide,
     .media-split,

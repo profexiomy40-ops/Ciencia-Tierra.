@@ -209,7 +209,7 @@
             <strong>Cuaderno listo</strong>
             <p>Dos tareas listas para usar como guia o entrega en clase.</p>
         </div>
-        <small>Proyecto local editable en Laravel.</small>
+        <small class="footer-credit"><span>Diseño</span><strong>CrisFaDev</strong></small>
     </footer>
 </body>
 </html>

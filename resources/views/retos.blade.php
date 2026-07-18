@@ -254,7 +254,7 @@
             <strong>Camino listo</strong>
             <p>La seleccion, el carrusel y el arrastre se resuelven en el navegador.</p>
         </div>
-        <small>Proyecto local editable en Laravel.</small>
+        <small class="footer-credit"><span>Diseño</span><strong>CrisFaDev</strong></small>
     </footer>
 </body>
 </html>

@@ -220,7 +220,7 @@
             <a href="{{ route('actividad2') }}">Esquema</a><a href="{{ route('tareas') }}">Tareas</a>
         </nav>
         <div class="footer-status"><span>Recuerda</span><strong>La ciencia empieza al observar</strong><p>Compara, pregunta y busca una explicación para cada cambio.</p></div>
-        <small>Proyecto local editable en Laravel.</small>
+        <small class="footer-credit"><span>Diseño</span><strong>CrisFaDev</strong></small>
     </footer>
 </body>
 </html>
