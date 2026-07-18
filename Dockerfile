@@ -30,7 +30,7 @@ FROM php:8.3-apache
 ENV APACHE_DOCUMENT_ROOT=/var/www/html/public
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends libonig-dev libzip-dev \
+    && apt-get install -y --no-install-recommends libonig-dev libsqlite3-dev libzip-dev pkg-config \
     && docker-php-ext-install mbstring pdo pdo_sqlite zip \
     && a2enmod rewrite \
     && rm -rf /var/lib/apt/lists/*
