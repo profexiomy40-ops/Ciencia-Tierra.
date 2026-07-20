@@ -10,9 +10,9 @@
 </head>
 <body class="task-page">
     <header class="topbar">
-        <a class="logo" href="{{ url('/') }}" aria-label="Estados de la materia inicio">
+        <a class="logo" href="{{ url('/') }}" aria-label="En clase con la profe Xiome, inicio">
             <span class="logo-symbol"></span>
-            <span>Estados de la materia</span>
+            <span>En clase con la profe Xiome</span>
         </a>
         <nav class="nav-menu" aria-label="Navegación principal">
             <a href="{{ url('/') }}">Guía</a>
@@ -27,10 +27,6 @@
             <div class="task-hero-copy">
                 <span class="eyebrow">Vista de tareas</span>
                 <h1>Dos tareas visuales para trabajar los estados de la materia.</h1>
-                <p>
-                    La idea es que el nino vea una pagina tipo cuaderno, con ilustraciones grandes,
-                    sin lineas para escribir y con dos tareas para hacer en casa.
-                </p>
                 <div class="task-tags">
                     <span>Solido</span>
                     <span>Liquido</span>

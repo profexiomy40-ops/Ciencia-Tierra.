@@ -10,9 +10,9 @@
 </head>
 <body class="guide-page">
     <header class="topbar">
-        <a class="logo" href="{{ url('/') }}" aria-label="Estados de la materia, inicio">
+        <a class="logo" href="{{ url('/') }}" aria-label="En clase con la profe Xiome, inicio">
             <span class="logo-symbol"></span>
-            <span>Estados de la materia</span>
+            <span>En clase con la profe Xiome</span>
         </a>
         <nav class="nav-menu guide-nav" aria-label="Navegación principal">
             <a class="nav-science-link nav-ficha" href="#ficha"><i aria-hidden="true"></i>Ficha</a>
