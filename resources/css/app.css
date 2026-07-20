@@ -1811,7 +1811,7 @@ p {
 
 .bubble-solid { right: 14px; bottom: 20px; }
 .bubble-liquid { right: 29%; bottom: 20px; }
-.bubble-gas { left: 30%; bottom: 20px; }
+.bubble-gas { left: 38%; bottom: 20px; }
 
 .guide-unit-tags { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .guide-unit-tags .unit-wide { grid-column: span 3; }
@@ -1989,7 +1989,7 @@ p {
     .state-bubble { min-width: 0; padding-inline: 9px; font-size: 0.66rem; }
     .bubble-solid { right: 8px; bottom: 16px; }
     .bubble-liquid { right: 29%; bottom: 16px; }
-    .bubble-gas { left: 27%; bottom: 16px; }
+    .bubble-gas { left: 35%; bottom: 16px; }
     .guide-unit-tags { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .guide-unit-tags .unit-wide { grid-column: span 2; }
     .concept-card-grid, .guide-roadmap .roadmap-track, .observation-grid { grid-template-columns: 1fr; }
