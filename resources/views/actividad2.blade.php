@@ -256,18 +256,20 @@
         <section class="schema-cards">
             <article class="schema-note schema-note-green">
                 <span class="section-kicker">Apoyo visual</span>
-                <h2>Usa colores y figuras para guiar la vista</h2>
+                <h2>¿Sabías que?</h2>
                 <p>
-                    Esta actividad tiene un estilo de cartel escolar: piezas claras, rutas simples y personajes
-                    en las esquinas para que el mapa se sienta vivo.
+                    Los cambios físicos los reconoces si, después de someter los materiales a algunas condiciones,
+                    mantienen su naturaleza; es decir, continúan con su misma composición. Los cambios físicos pueden
+                    ser reversibles, como el cambio de estado de un líquido, o irreversibles, como cuando se corta un
+                    pedazo de madera en trozos más pequeños.
                 </p>
             </article>
             <article class="schema-note schema-note-blue">
                 <span class="section-kicker">Idea de clase</span>
-                <h2>Mezcla ciencia con juego</h2>
+                <h2>¿Sabías que?</h2>
                 <p>
-                    Puedes cambiar los cuadros, sumar nuevas tarjetas o reemplazar los ejemplos por otros materiales
-                    cuando quieras ampliar el tema.
+                    Algunos materiales, al ser expuestos al oxígeno del agua o del aire, sufren cambios y forman otras
+                    sustancias. A este proceso se le llama oxidación.
                 </p>
             </article>
         </section>
