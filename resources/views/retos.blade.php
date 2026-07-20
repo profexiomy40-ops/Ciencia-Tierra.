@@ -10,9 +10,9 @@
 </head>
 <body>
     <header class="topbar">
-        <a class="logo" href="{{ url('/') }}" aria-label="En clase con la profe Xiome, inicio">
+        <a class="logo" href="{{ url('/') }}" aria-label="En clase con la profe Xiomy, inicio">
             <span class="logo-symbol"></span>
-            <span>En clase con la profe Xiome</span>
+            <span>En clase con la profe Xiomy</span>
         </a>
         <nav class="nav-menu" aria-label="Navegación principal">
             <a href="{{ url('/') }}">Guia</a>

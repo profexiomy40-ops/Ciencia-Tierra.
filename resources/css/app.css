@@ -1766,7 +1766,7 @@ p {
     z-index: 2;
     left: 24px;
     top: 26px;
-    max-width: 275px;
+    max-width: 190px;
     color: #fff;
 }
 
@@ -1780,14 +1780,14 @@ p {
 }
 
 .science-window-copy strong { display: block; margin-top: 15px; font-size: clamp(1.8rem, 3vw, 2.7rem); line-height: 1.03; }
-.science-window-copy p { margin-top: 12px; color: rgba(255, 255, 255, 0.86); line-height: 1.55; }
+.science-window-copy p { margin-top: 12px; color: rgba(255, 255, 255, 0.86); font-size: 0.94rem; line-height: 1.55; }
 
 .science-doodle-hero {
     position: absolute;
-    right: -12px;
+    right: -4px;
     bottom: 5px;
-    width: min(74%, 560px);
-    height: 235px;
+    width: min(62%, 430px);
+    height: 215px;
     object-fit: contain;
     object-position: center;
     filter: drop-shadow(0 18px 20px rgba(3, 31, 28, 0.22));
@@ -1811,7 +1811,7 @@ p {
 
 .bubble-solid { right: 32px; top: 40px; }
 .bubble-liquid { right: 134px; bottom: 38px; }
-.bubble-gas { left: 34%; bottom: 28px; }
+.bubble-gas { left: auto; right: 20px; top: 96px; bottom: auto; }
 
 .guide-unit-tags { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .guide-unit-tags .unit-wide { grid-column: span 3; }
@@ -1983,12 +1983,12 @@ p {
 @media (max-width: 720px) {
     .guide-hero-vivid .hero-copy h1 { max-width: 100%; font-size: clamp(2.8rem, 15vw, 4.2rem); }
     .science-window { min-height: 430px; }
-    .science-window-copy { max-width: 205px; }
+    .science-window-copy { max-width: 190px; }
     .science-window-copy p { font-size: 0.92rem; }
     .science-doodle-hero { width: 52%; right: -10px; bottom: 18px; height: auto; }
     .bubble-solid { right: 16px; top: 18px; }
     .bubble-liquid { right: 18px; bottom: 18px; }
-    .bubble-gas { left: auto; right: 180px; bottom: 18px; }
+    .bubble-gas { left: auto; right: 18px; top: 84px; bottom: auto; }
     .guide-unit-tags { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .guide-unit-tags .unit-wide { grid-column: span 2; }
     .concept-card-grid, .guide-roadmap .roadmap-track, .observation-grid { grid-template-columns: 1fr; }
