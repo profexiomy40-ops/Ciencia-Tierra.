@@ -55,9 +55,9 @@
                         </div>
                         <div class="science-orbit orbit-a"></div>
                         <div class="science-orbit orbit-b"></div>
-                        <div class="state-bubble bubble-solid">Gaseoso · vapor</div>
-                        <div class="state-bubble bubble-liquid">Temperatura</div>
-                        <div class="state-bubble bubble-gas">Líquido · agua</div>
+                        <div class="state-bubble bubble-solid">Sólido</div>
+                        <div class="state-bubble bubble-liquid">Líquido</div>
+                        <div class="state-bubble bubble-gas">Gaseoso</div>
                         <img class="science-doodle-hero" src="{{ asset('images/science-doodles.png') }}" alt="Ilustraciones de una gota, el sol y una molécula">
                     </div>
                 </div>
